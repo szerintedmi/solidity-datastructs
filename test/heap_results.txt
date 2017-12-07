@@ -1,0 +1,1118 @@
+ITEMS_COUNT: 1000
+values: Math.floor((Math.random() * 30000) + 10000); // b/w 300 and 400 w 2 decimals
+positions query: 100
+delete count: 100
+
+==== SUM
+count()
+selectAt(pos) max:   min:  avg:
+duplicates(val) n/a
+insert(val) max: 105,556 min: 53,411 avg: 61,968  /// With 10k inserts: max: 130,847 min: 53,411 avg: 62,256
+delete(pos) max: 71,703 min: 24,453 avg: 33,767
+====
+
+===================  GAS USAGE STATS  ===================
+Test contract, Test, Tx, Gas used
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26340", 68942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37923", 53411
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29666", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23889", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10207", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15322", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14970", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21951", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38381", 72770
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32901", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38199", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19689", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23143", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20648", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25499", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30725", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10518", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24500", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21782", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30989", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29749", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33877", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19292", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34785", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28785", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29065", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18733", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24980", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12082", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38575", 79223
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28049", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31765", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39029", 85676
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19373", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29600", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23634", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24770", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26063", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17327", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25170", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30242", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15523", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23571", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38504", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36015", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22580", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21368", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21708", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33102", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31918", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26482", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27691", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29821", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27833", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39622", 85676
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24087", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27727", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33550", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23784", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33889", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33673", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28989", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36677", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27949", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25800", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24600", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32216", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30962", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13843", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12640", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15991", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38073", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22793", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26478", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30519", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20298", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39290", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15536", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14656", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19112", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37989", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32618", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25372", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35006", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26247", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37237", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24955", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14604", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13638", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11923", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29309", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27112", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22593", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34953", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36319", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14666", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30799", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27620", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22317", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24298", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20779", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32038", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24136", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16773", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19141", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11435", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22452", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32653", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12158", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15806", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25894", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11107", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27554", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13307", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21607", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28856", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16510", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26721", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21863", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29165", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11914", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14832", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12519", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27480", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39963", 92129
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18431", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31918", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38293", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27033", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28797", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20503", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31073", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29437", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24110", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27441", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19421", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26868", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36536", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28954", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25436", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38566", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12061", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12657", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34328", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38625", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29514", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27898", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33167", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37537", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34172", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24973", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14161", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34280", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29853", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34563", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16564", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16809", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26733", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19190", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38227", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23090", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37760", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14978", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28287", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23307", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35587", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31881", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39542", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31103", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34705", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37593", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26086", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12418", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29425", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35652", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29780", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26622", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27374", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26627", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32808", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19386", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37250", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12596", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35312", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20829", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22727", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21623", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14824", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35564", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25656", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29161", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18877", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22363", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18401", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27843", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24383", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30448", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34411", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10447", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28446", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25326", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24732", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32702", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16645", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16145", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14092", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23377", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22692", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18192", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35249", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35877", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30686", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20917", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17862", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27919", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13131", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22635", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26679", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36430", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23075", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23848", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20465", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18889", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13022", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11456", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26186", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16985", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25104", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29886", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34824", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20527", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20209", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29623", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28373", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13466", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16769", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31402", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16189", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36637", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39697", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18838", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14936", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19210", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11356", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11046", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11741", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34537", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24429", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32675", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35162", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32847", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17793", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31378", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37088", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39874", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18575", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31249", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39163", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26977", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14901", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29344", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17132", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25405", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36487", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22109", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17749", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20057", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25108", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26133", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19165", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39228", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35921", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17663", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28616", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38503", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14363", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14030", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31062", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33994", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39428", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22626", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34696", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37631", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11350", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29237", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35434", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18703", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25382", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31828", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31734", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20826", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36646", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27488", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38837", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23768", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10528", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15330", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10483", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10331", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27048", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36040", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28949", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27094", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27636", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29655", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26515", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28005", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15472", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28335", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10938", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28156", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14719", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10103", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39084", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31182", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38868", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24121", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37647", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15267", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12024", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18380", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39484", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12142", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14202", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28099", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19070", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10028", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11455", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36818", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16571", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28144", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16771", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23123", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38071", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22651", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21387", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15214", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23576", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13758", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15135", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13318", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10761", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17489", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22470", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16820", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27608", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35644", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12974", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16751", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35968", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22471", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17016", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22074", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11587", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12709", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18610", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31166", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25396", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12493", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32145", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35170", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11084", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33695", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29933", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26094", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20255", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14957", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33417", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36081", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23957", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11964", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25851", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28857", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10074", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26633", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30567", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13189", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34124", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15688", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33772", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20869", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37602", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34578", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15273", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29486", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18346", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32407", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22753", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30596", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23062", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12078", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21288", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20873", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24206", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22210", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20986", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37800", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20413", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33250", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36412", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30558", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11362", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33185", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33172", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21687", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11213", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18491", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24582", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30237", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24151", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23846", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19594", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20790", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14173", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10243", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10333", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27782", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15625", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34507", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23598", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16067", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10664", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23672", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15771", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13276", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22265", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34553", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27888", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24285", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14527", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32474", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22185", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30473", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37820", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38106", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26468", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30105", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19729", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11195", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34020", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26339", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27832", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37239", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39122", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33911", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15159", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10658", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12019", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15630", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24989", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26262", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36722", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26649", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27586", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26689", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14155", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26276", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14033", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32736", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20430", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22436", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26148", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25653", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24982", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27060", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15171", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32581", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22799", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39304", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19541", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29980", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22687", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17141", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34814", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31010", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32446", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18339", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15462", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18927", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14622", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15407", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23773", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37157", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10414", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32760", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13137", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22226", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13862", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18826", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26220", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20027", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37215", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34147", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29624", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38385", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19682", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39862", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34397", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32244", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31662", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27696", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15851", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26128", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25833", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23101", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15750", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27774", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20482", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33000", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16390", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24548", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37801", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37723", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13523", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17196", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30957", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38322", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35384", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17199", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10893", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23133", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38227", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37334", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14338", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26200", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29128", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29438", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26372", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10364", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16020", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36502", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37511", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14619", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20021", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24326", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32851", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37179", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28246", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23512", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13462", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11688", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16556", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35097", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21511", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21658", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14063", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37432", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35038", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28264", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13590", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18474", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23307", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35686", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39159", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14338", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20754", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34020", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30625", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13677", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37904", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34541", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32985", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23368", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17523", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35251", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19988", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30305", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11213", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24327", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14440", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29430", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39527", 99113
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35176", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22584", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25312", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38270", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27518", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22513", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12685", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18945", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12166", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23570", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25047", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30392", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32127", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25903", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23223", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32682", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23550", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39161", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20463", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16044", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36817", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31029", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16641", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24425", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27990", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12441", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36155", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11828", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38538", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22729", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29414", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22225", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37738", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37055", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27688", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31277", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16270", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36462", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24375", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33274", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29799", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37516", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28732", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28985", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13117", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32747", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13540", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35845", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27641", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15913", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24028", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26892", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35650", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23473", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28776", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29490", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22375", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28493", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29390", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11431", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29131", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34871", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17271", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14673", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28696", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14696", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27902", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30740", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39725", 105566
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10581", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28124", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17181", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16179", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13067", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12309", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18397", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10103", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24944", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16400", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31783", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20799", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34953", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38958", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18750", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21349", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12667", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39270", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23855", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25222", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25313", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20672", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31598", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25417", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36049", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36929", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11069", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12939", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13229", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29406", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24212", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18616", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10167", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10763", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39542", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14721", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20139", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29244", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14237", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26123", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10588", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12487", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37023", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25119", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29882", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12541", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16421", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39903", 105566
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20308", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10338", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29903", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30780", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20673", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23019", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32200", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22272", 60331
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36980", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24318", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37329", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14592", 53878
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15600", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34857", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36967", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15208", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34094", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31996", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11551", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18950", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32012", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17640", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18162", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27833", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32410", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13698", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23296", 53878
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37941", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31129", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17679", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35720", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11492", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26905", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17260", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10968", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18420", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36467", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38733", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26800", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14316", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17175", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16129", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39739", 99113
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20350", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37180", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18857", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25233", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13728", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38317", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21212", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31685", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33855", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24264", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23091", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22987", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34793", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20176", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35378", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20401", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14577", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12078", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10859", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30761", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26474", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14788", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34157", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14606", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17729", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36415", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22056", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24582", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19824", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34678", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10790", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17400", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32198", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21427", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17550", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36192", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10254", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37764", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24639", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28785", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26561", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29314", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32410", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20088", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27819", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25164", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17684", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18858", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16843", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23252", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32368", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16909", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13383", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28062", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35882", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34602", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37531", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38432", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15548", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30992", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32029", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19283", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24845", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37184", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11724", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38384", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33333", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14693", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18763", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25897", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27619", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32664", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16973", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18928", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14582", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37472", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10689", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34888", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10283", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39706", 99113
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11463", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11941", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34827", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16166", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22413", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10907", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11182", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32983", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10408", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15107", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38025", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20901", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22189", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20350", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26224", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31123", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38676", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30728", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23219", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16008", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11512", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26843", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14068", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38140", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11417", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26103", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21952", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16774", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21487", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37230", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 38737", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33724", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18217", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13518", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23127", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21721", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25985", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34589", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39137", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17088", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11770", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18203", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27039", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22329", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14634", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21438", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37972", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23514", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32603", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14057", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21329", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27425", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34411", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33343", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37981", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10314", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10196", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12536", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32377", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16369", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10611", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31794", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27857", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22239", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17499", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23014", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11932", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35945", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31752", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25253", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10609", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31710", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19093", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33409", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24193", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35526", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 34906", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15201", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35514", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18640", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31191", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14650", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36351", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25795", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12077", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18677", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25058", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18239", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16823", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39815", 92660
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22347", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10614", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13548", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29838", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39738", 86207
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22884", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19899", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24278", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25163", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39715", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29269", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17161", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 15484", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 39040", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30067", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 12670", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30008", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17475", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14323", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22450", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31812", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11265", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28796", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35811", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30908", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20047", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29242", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13473", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30797", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20014", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14621", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24019", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18440", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27726", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21104", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25776", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36550", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 32894", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22173", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10752", 53878
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31708", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33599", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36403", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16523", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29063", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24681", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19140", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19292", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19848", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25515", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33056", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17321", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21450", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19976", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27840", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10154", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36126", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36250", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 31289", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 17441", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21339", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 16026", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18644", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36033", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35988", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 10004", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19230", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 23075", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28189", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33350", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 21858", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36868", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36935", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36640", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 19177", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11347", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 27122", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 28911", 66848
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22985", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35460", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 20334", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 36977", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 37777", 79754
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13219", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 33294", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 24826", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 11742", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14705", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 30798", 60395
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 26150", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13227", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 13861", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 22636", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 29515", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 35726", 73301
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 18047", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 14844", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests insert x item", "insert val: 25596", 53942
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 41 val: 39270 selectAt(41) selectAtGas:22186", 50109
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 401 val: 27619 selectAt(401) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 451 val: 26186 selectAt(451) selectAtGas:22250", 32326
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 605 val: 27636 selectAt(605) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 499 val: 31662 selectAt(499) selectAtGas:22250", 32326
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 965 val: 18644 selectAt(965) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 256 val: 31073 selectAt(256) selectAtGas:22186", 32281
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 948 val: 16189 selectAt(948) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 497 val: 33673 selectAt(497) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 236 val: 34814 selectAt(236) selectAtGas:22186", 40135
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 584 val: 22793 selectAt(584) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 423 val: 23127 selectAt(423) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 67 val: 37179 selectAt(67) selectAtGas:22186", 48027
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 660 val: 23307 selectAt(660) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 931 val: 20014 selectAt(931) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 228 val: 29886 selectAt(228) selectAtGas:22186", 40173
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 905 val: 13548 selectAt(905) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 699 val: 24318 selectAt(699) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 706 val: 11587 selectAt(706) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 77 val: 35845 selectAt(77) selectAtGas:22186", 48046
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 613 val: 29666 selectAt(613) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 723 val: 10968 selectAt(723) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 241 val: 34537 selectAt(241) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 288 val: 27518 selectAt(288) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 56 val: 39715 selectAt(56) selectAtGas:22186", 55957
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 89 val: 35720 selectAt(89) selectAtGas:22186", 48065
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 788 val: 22210 selectAt(788) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 62 val: 38293 selectAt(62) selectAtGas:22186", 55900
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 650 val: 16400 selectAt(650) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 631 val: 11431 selectAt(631) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 424 val: 25985 selectAt(424) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 534 val: 24110 selectAt(534) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 849 val: 0 selectAt(849) selectAtGas:22250", 39453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 889 val: 15201 selectAt(889) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 816 val: 16145 selectAt(816) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 608 val: 16270 selectAt(608) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 225 val: 27554 selectAt(225) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 631 val: 0 selectAt(631) selectAtGas:22250", 39453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 409 val: 24151 selectAt(409) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 764 val: 18877 selectAt(764) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 79 val: 37647 selectAt(79) selectAtGas:22186", 48027
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 718 val: 17679 selectAt(718) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 612 val: 28005 selectAt(612) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 31 val: 39622 selectAt(31) selectAtGas:22186", 55957
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 759 val: 24582 selectAt(759) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 150 val: 36040 selectAt(150) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 711 val: 18162 selectAt(711) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 609 val: 17327 selectAt(609) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 528 val: 10364 selectAt(528) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 917 val: 12670 selectAt(917) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 303 val: 31277 selectAt(303) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 181 val: 35312 selectAt(181) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 941 val: 10752 selectAt(941) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 374 val: 14824 selectAt(374) selectAtGas:22250", 32326
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 94 val: 36081 selectAt(94) selectAtGas:22186", 48046
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 558 val: 13677 selectAt(558) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 640 val: 15322 selectAt(640) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 438 val: 23014 selectAt(438) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 184 val: 31685 selectAt(184) selectAtGas:22186", 40173
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 927 val: 20047 selectAt(927) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 330 val: 25313 selectAt(330) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 487 val: 36033 selectAt(487) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 312 val: 25170 selectAt(312) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 742 val: 20829 selectAt(742) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 633 val: 0 selectAt(633) selectAtGas:22250", 39453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 204 val: 26482 selectAt(204) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 91 val: 37602 selectAt(91) selectAtGas:22186", 48046
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 11 val: 39725 selectAt(11) selectAtGas:22186", 71703
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 354 val: 19292 selectAt(354) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 761 val: 19824 selectAt(761) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 628 val: 16809 selectAt(628) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 150 val: 29414 selectAt(150) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 86 val: 35968 selectAt(86) selectAtGas:22186", 48046
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 628 val: 0 selectAt(628) selectAtGas:22250", 39453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 431 val: 27425 selectAt(431) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 815 val: 16166 selectAt(815) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 780 val: 12078 selectAt(780) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 176 val: 31996 selectAt(176) selectAtGas:22186", 40173
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 195 val: 30596 selectAt(195) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 887 val: 26339 selectAt(887) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 883 val: 24087 selectAt(883) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 106 val: 34589 selectAt(106) selectAtGas:22186", 48027
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 225 val: 26262 selectAt(225) selectAtGas:22186", 40173
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 652 val: 10028 selectAt(652) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 179 val: 32410 selectAt(179) selectAtGas:22186", 40154
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 76 val: 36462 selectAt(76) selectAtGas:22186", 42217
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 458 val: 28856 selectAt(458) selectAtGas:22250", 32326
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 228 val: 29269 selectAt(228) selectAtGas:22186", 40135
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 589 val: 23768 selectAt(589) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 897 val: 12077 selectAt(897) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 487 val: 33350 selectAt(487) selectAtGas:22250", 32326
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 30 val: 38385 selectAt(30) selectAtGas:22186", 63811
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 65 val: 38227 selectAt(65) selectAtGas:22186", 48027
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 488 val: 18826 selectAt(488) selectAtGas:22250", 32345
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 245 val: 35460 selectAt(245) selectAtGas:22186", 40173
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 487 val: 13862 selectAt(487) selectAtGas:22250", 26516
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 19 val: 38868 selectAt(19) selectAtGas:22186", 63811
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 736 val: 13728 selectAt(736) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 724 val: 18420 selectAt(724) selectAtGas:22250", 24453
+"Contract: OrderStatisticTree tests", "Contract: OrderStatisticTree tests delete items", "delete pos: 666 val: 25372 selectAt(666) selectAtGas:22250", 24453
+=========== Total gas usage : 65344921
+
+  2 passing (53s)
